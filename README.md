@@ -4,8 +4,8 @@ TL;DR
 A docker-container that watches for incoming files (incrond) and merges them together
  (using [qpdf](http://qpdf.sourceforge.net)) if needed.  
 
-The reason I created started this project, is a scanner (HP OfficeJet) whose duplex unit sucks.
-It can’t handle folded sheets well (paperjam in 8 out of 10 cases), which is common for letters.
+The reason I created this project, is a scanner (HP OfficeJet) whose duplex unit sucks.
+It can’t handle folded sheets well (paperjam in 8 out of 10 cases).
 So I need to scan the odd and even pages separately and merge them together afterwards.  
 The docker-container is running on my NAS (QNAP TS-251+) and watches for new files in a mounted volume,
 in which the scanner saves it files. The files are prefixed based on scan-profiles and merged based on
