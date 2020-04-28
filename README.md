@@ -1,4 +1,5 @@
 # pdfmerge
+  ![automation](https://img.shields.io/docker/cloud/automated/rverst/pdfmerge) ![build status](https://img.shields.io/docker/cloud/build/rverst/pdfmerge)
 
 TL;DR  
 A docker-container that watches for incoming files (incrond) and merges them together
